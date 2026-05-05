@@ -3,6 +3,9 @@ const playersList = document.querySelector("#players-list");
 const playerNameInput = document.querySelector("#player-name-input");
 const addPlayerButton = document.querySelector("#add-player-button");
 
+//TODO: record matches and update ratings accordingly
+//TODO: add ELO logic
+
 loadPlayersButton.addEventListener("click", loadPlayers);
 
 addPlayerButton.addEventListener("click", async () => {
