@@ -1,6 +1,6 @@
 function Player(nickname){
     this.nickname = nickname;
-    this.elo = 0;
+    this.elo = 1000;
     this.gamesPlayed = 0;
     this.wins = 0;
     this.losses = 0;

@@ -7,8 +7,8 @@ import { Player } from "./models/PingPongModels.js";
 function App() {
   const [players, setPlayers] = useState([
     new Player("Crazyguitar54"),
-    new Player("GabboTheGabbix"),
-    new Player("AlbiConLaClay"),
+    new Player("GabboDeGabbix"),
+    new Player("Albyconlay"),
     new Player("Federico Colombo")
   ]);
 
