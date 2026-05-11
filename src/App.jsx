@@ -31,7 +31,7 @@ function App() {
         <tbody>
           {players.map((player) => (
             <tr key={player.nickname}>
-              <td>{player.nickname}</td>ù+ù++ù
+              <td>{player.nickname}</td>
               <td>{player.elo}</td>
               <td>{player.gamesPlayed}</td>
               <td>{player.wins}</td>
